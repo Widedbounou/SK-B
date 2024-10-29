@@ -1,0 +1,4399 @@
+{
+    "version": "1",
+    "forms": {
+      "searchAd": [
+        {
+          "type": "keyword",
+          "name": "keyword"
+        },
+        {
+          "type": "feature",
+          "name": "ad_type"
+        },
+        {
+          "type": "localisation",
+          "name": "localisation"
+        },
+        {
+          "type": "category",
+          "name": "categoryId"
+        },
+        {
+          "type": "multi",
+          "name": "categoryFields",
+          "conditionalFeatures": [
+            "ad_type",
+            "categoryId"
+          ]
+        },
+        {
+          "type": "userType",
+          "name": "userType"
+        },
+        {
+          "type": "urgent",
+          "name": "urgent"
+        }
+      ]
+    },
+    "multi": {
+      "u_car_brandFields": {
+        "ABARTH": [
+          {
+            "type": "feature",
+            "name": "u_car_model_abarth"
+          }
+        ],
+        "AC": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ac"
+          }
+        ],
+        "ACURA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_acura"
+          }
+        ],
+        "AIWAYS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_aiways"
+          }
+        ],
+        "AIXAM": [
+          {
+            "type": "feature",
+            "name": "u_car_model_aixam"
+          }
+        ],
+        "ALFA ROMEO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_alfa_romeo"
+          }
+        ],
+        "ALPINA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_alpina"
+          }
+        ],
+        "ALPINE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_alpine"
+          }
+        ],
+        "ALVIS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_alvis"
+          }
+        ],
+        "AMC": [
+          {
+            "type": "feature",
+            "name": "u_car_model_amc"
+          }
+        ],
+        "ARIEL": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ariel"
+          }
+        ],
+        "ARO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_aro"
+          }
+        ],
+        "ASTON MARTIN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_aston_martin"
+          }
+        ],
+        "AUDI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_audi"
+          }
+        ],
+        "AUSTIN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_austin"
+          }
+        ],
+        "AUSTIN HEALEY": [
+          {
+            "type": "feature",
+            "name": "u_car_model_austin_healey"
+          }
+        ],
+        "AUTOBIANCHI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_autobianchi"
+          }
+        ],
+        "AUTRE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_autre"
+          }
+        ],
+        "AUVERLAND": [
+          {
+            "type": "feature",
+            "name": "u_car_model_auverland"
+          }
+        ],
+        "BEIJING": [
+          {
+            "type": "feature",
+            "name": "u_car_model_beijing"
+          }
+        ],
+        "BELLIER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_bellier"
+          }
+        ],
+        "BENTLEY": [
+          {
+            "type": "feature",
+            "name": "u_car_model_bentley"
+          }
+        ],
+        "BERTONE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_bertone"
+          }
+        ],
+        "BLUECAR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_bluecar"
+          }
+        ],
+        "BMW": [
+          {
+            "type": "feature",
+            "name": "u_car_model_bmw"
+          }
+        ],
+        "BUGATTI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_bugatti"
+          }
+        ],
+        "BUICK": [
+          {
+            "type": "feature",
+            "name": "u_car_model_buick"
+          }
+        ],
+        "BYD": [
+          {
+            "type": "feature",
+            "name": "u_car_model_byd"
+          }
+        ],
+        "CADILLAC": [
+          {
+            "type": "feature",
+            "name": "u_car_model_cadillac"
+          }
+        ],
+        "CASALINI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_casalini"
+          }
+        ],
+        "CATERHAM": [
+          {
+            "type": "feature",
+            "name": "u_car_model_caterham"
+          }
+        ],
+        "CHATENET": [
+          {
+            "type": "feature",
+            "name": "u_car_model_chatenet"
+          }
+        ],
+        "CHEVROLET": [
+          {
+            "type": "feature",
+            "name": "u_car_model_chevrolet"
+          }
+        ],
+        "CHRYSLER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_chrysler"
+          }
+        ],
+        "CITROEN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_citroen"
+          }
+        ],
+        "CUPRA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_cupra"
+          }
+        ],
+        "DACIA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_dacia"
+          }
+        ],
+        "DAEWOO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_daewoo"
+          }
+        ],
+        "DAF": [
+          {
+            "type": "feature",
+            "name": "u_car_model_daf"
+          }
+        ],
+        "DAIHATSU": [
+          {
+            "type": "feature",
+            "name": "u_car_model_daihatsu"
+          }
+        ],
+        "DAIMLER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_daimler"
+          }
+        ],
+        "DANGEL": [
+          {
+            "type": "feature",
+            "name": "u_car_model_dangel"
+          }
+        ],
+        "DATSUN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_datsun"
+          }
+        ],
+        "DE LOREAN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_de_lorean"
+          }
+        ],
+        "DE TOMASO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_de_tomaso"
+          }
+        ],
+        "DELAGE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_delage"
+          }
+        ],
+        "DELAHAYE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_delahaye"
+          }
+        ],
+        "DODGE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_dodge"
+          }
+        ],
+        "DS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ds"
+          }
+        ],
+        "ELARIS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_elaris"
+          }
+        ],
+        "EXCALIBUR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_excalibur"
+          }
+        ],
+        "FACEL VEGA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_facel_vega"
+          }
+        ],
+        "FERRARI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ferrari"
+          }
+        ],
+        "FIAT": [
+          {
+            "type": "feature",
+            "name": "u_car_model_fiat"
+          }
+        ],
+        "FISKER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_fisker"
+          }
+        ],
+        "FORD": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ford"
+          }
+        ],
+        "GENERAL MOTORS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_general_motors"
+          }
+        ],
+        "GENESIS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_genesis"
+          }
+        ],
+        "GURGEL": [
+          {
+            "type": "feature",
+            "name": "u_car_model_gurgel"
+          }
+        ],
+        "HONDA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_honda"
+          }
+        ],
+        "HOTCHKISS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_hotchkiss"
+          }
+        ],
+        "HUMMER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_hummer"
+          }
+        ],
+        "HYUNDAI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_hyundai"
+          }
+        ],
+        "IMF": [
+          {
+            "type": "feature",
+            "name": "u_car_model_imf"
+          }
+        ],
+        "INEOS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ineos"
+          }
+        ],
+        "INFINITI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_infiniti"
+          }
+        ],
+        "INNOCENTI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_innocenti"
+          }
+        ],
+        "ISUZU": [
+          {
+            "type": "feature",
+            "name": "u_car_model_isuzu"
+          }
+        ],
+        "JAGUAR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_jaguar"
+          }
+        ],
+        "JDM SIMPA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_jdm_simpa"
+          }
+        ],
+        "JEEP": [
+          {
+            "type": "feature",
+            "name": "u_car_model_jeep"
+          }
+        ],
+        "JENSEN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_jensen"
+          }
+        ],
+        "KIA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_kia"
+          }
+        ],
+        "KTM": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ktm"
+          }
+        ],
+        "LADA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lada"
+          }
+        ],
+        "LAMBORGHINI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lamborghini"
+          }
+        ],
+        "LANCIA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lancia"
+          }
+        ],
+        "LAND-ROVER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_land-rover"
+          }
+        ],
+        "LEAPMOTOR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_leapmotor"
+          }
+        ],
+        "LEVC": [
+          {
+            "type": "feature",
+            "name": "u_car_model_levc"
+          }
+        ],
+        "LEXUS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lexus"
+          }
+        ],
+        "LIGIER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ligier"
+          }
+        ],
+        "LINCOLN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lincoln"
+          }
+        ],
+        "LOTUS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lotus"
+          }
+        ],
+        "LYNK&CO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_lynk&co"
+          }
+        ],
+        "MAHINDRA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mahindra"
+          }
+        ],
+        "MARCOS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_marcos"
+          }
+        ],
+        "MASERATI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_maserati"
+          }
+        ],
+        "MATRA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_matra"
+          }
+        ],
+        "MAYBACH": [
+          {
+            "type": "feature",
+            "name": "u_car_model_maybach"
+          }
+        ],
+        "MAZDA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mazda"
+          }
+        ],
+        "MCLAREN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mclaren"
+          }
+        ],
+        "MEGA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mega"
+          }
+        ],
+        "MERCEDES-BENZ": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mercedes-benz"
+          }
+        ],
+        "MERCURY": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mercury"
+          }
+        ],
+        "MG/MG MOTOR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mg/mg_motor"
+          }
+        ],
+        "MIA ELECTRIC": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mia_electric"
+          }
+        ],
+        "MICROCAR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_microcar"
+          }
+        ],
+        "MINI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mini"
+          }
+        ],
+        "MITSUBISHI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mitsubishi"
+          }
+        ],
+        "MORGAN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_morgan"
+          }
+        ],
+        "MORRIS": [
+          {
+            "type": "feature",
+            "name": "u_car_model_morris"
+          }
+        ],
+        "MPM": [
+          {
+            "type": "feature",
+            "name": "u_car_model_mpm"
+          }
+        ],
+        "NIO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_nio"
+          }
+        ],
+        "NISSAN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_nissan"
+          }
+        ],
+        "NSU": [
+          {
+            "type": "feature",
+            "name": "u_car_model_nsu"
+          }
+        ],
+        "OLDSMOBILE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_oldsmobile"
+          }
+        ],
+        "OPEL": [
+          {
+            "type": "feature",
+            "name": "u_car_model_opel"
+          }
+        ],
+        "PANHARD": [
+          {
+            "type": "feature",
+            "name": "u_car_model_panhard"
+          }
+        ],
+        "PANTHER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_panther"
+          }
+        ],
+        "PEUGEOT": [
+          {
+            "type": "feature",
+            "name": "u_car_model_peugeot"
+          }
+        ],
+        "PGO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_pgo"
+          }
+        ],
+        "PIAGGIO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_piaggio"
+          }
+        ],
+        "PLYMOUTH": [
+          {
+            "type": "feature",
+            "name": "u_car_model_plymouth"
+          }
+        ],
+        "PONTIAC": [
+          {
+            "type": "feature",
+            "name": "u_car_model_pontiac"
+          }
+        ],
+        "PORSCHE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_porsche"
+          }
+        ],
+        "PROTON": [
+          {
+            "type": "feature",
+            "name": "u_car_model_proton"
+          }
+        ],
+        "RENAULT": [
+          {
+            "type": "feature",
+            "name": "u_car_model_renault"
+          }
+        ],
+        "ROLLS-ROYCE": [
+          {
+            "type": "feature",
+            "name": "u_car_model_rolls-royce"
+          }
+        ],
+        "ROVER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_rover"
+          }
+        ],
+        "SAAB": [
+          {
+            "type": "feature",
+            "name": "u_car_model_saab"
+          }
+        ],
+        "SANTANA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_santana"
+          }
+        ],
+        "SEAT": [
+          {
+            "type": "feature",
+            "name": "u_car_model_seat"
+          }
+        ],
+        "SERES": [
+          {
+            "type": "feature",
+            "name": "u_car_model_seres"
+          }
+        ],
+        "SIMCA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_simca"
+          }
+        ],
+        "SKODA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_skoda"
+          }
+        ],
+        "SMART": [
+          {
+            "type": "feature",
+            "name": "u_car_model_smart"
+          }
+        ],
+        "SSANGYONG": [
+          {
+            "type": "feature",
+            "name": "u_car_model_ssangyong"
+          }
+        ],
+        "STUDEBAKER": [
+          {
+            "type": "feature",
+            "name": "u_car_model_studebaker"
+          }
+        ],
+        "SUBARU": [
+          {
+            "type": "feature",
+            "name": "u_car_model_subaru"
+          }
+        ],
+        "SUNBEAM": [
+          {
+            "type": "feature",
+            "name": "u_car_model_sunbeam"
+          }
+        ],
+        "SUZUKI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_suzuki"
+          }
+        ],
+        "TALBOT": [
+          {
+            "type": "feature",
+            "name": "u_car_model_talbot"
+          }
+        ],
+        "TESLA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_tesla"
+          }
+        ],
+        "TOYOTA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_toyota"
+          }
+        ],
+        "TRABANT": [
+          {
+            "type": "feature",
+            "name": "u_car_model_trabant"
+          }
+        ],
+        "TRIUMPH": [
+          {
+            "type": "feature",
+            "name": "u_car_model_triumph"
+          }
+        ],
+        "TVR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_tvr"
+          }
+        ],
+        "UMM": [
+          {
+            "type": "feature",
+            "name": "u_car_model_umm"
+          }
+        ],
+        "VENTURI": [
+          {
+            "type": "feature",
+            "name": "u_car_model_venturi"
+          }
+        ],
+        "VESPA": [
+          {
+            "type": "feature",
+            "name": "u_car_model_vespa"
+          }
+        ],
+        "VINFAST": [
+          {
+            "type": "feature",
+            "name": "u_car_model_vinfast"
+          }
+        ],
+        "VOLKSWAGEN": [
+          {
+            "type": "feature",
+            "name": "u_car_model_volkswagen"
+          }
+        ],
+        "VOLVO": [
+          {
+            "type": "feature",
+            "name": "u_car_model_volvo"
+          }
+        ],
+        "XEV": [
+          {
+            "type": "feature",
+            "name": "u_car_model_xev"
+          }
+        ],
+        "XPENG": [
+          {
+            "type": "feature",
+            "name": "u_car_model_xpeng"
+          }
+        ],
+        "ZEEKR": [
+          {
+            "type": "feature",
+            "name": "u_car_model_zeekr"
+          }
+        ]
+      },
+      "u_utility_brandFields": {
+        "AIXAM": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_aixam"
+          }
+        ],
+        "ARO": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_aro"
+          }
+        ],
+        "AUDI": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_audi"
+          }
+        ],
+        "AUSTIN": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_austin"
+          }
+        ],
+        "AUTRE": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_autre"
+          }
+        ],
+        "AUVERLAND": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_auverland"
+          }
+        ],
+        "BELLIER": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_bellier"
+          }
+        ],
+        "BLUECAR": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_bluecar"
+          }
+        ],
+        "CITROEN": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_citroen"
+          }
+        ],
+        "DACIA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_dacia"
+          }
+        ],
+        "DAF": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_daf"
+          }
+        ],
+        "DAIHATSU": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_daihatsu"
+          }
+        ],
+        "DANGEL": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_dangel"
+          }
+        ],
+        "DODGE": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_dodge"
+          }
+        ],
+        "FIAT": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_fiat"
+          }
+        ],
+        "FORD": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_ford"
+          }
+        ],
+        "FOTON": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_foton"
+          }
+        ],
+        "HONDA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_honda"
+          }
+        ],
+        "HYUNDAI": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_hyundai"
+          }
+        ],
+        "IMF": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_imf"
+          }
+        ],
+        "INEOS": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_ineos"
+          }
+        ],
+        "ISUZU": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_isuzu"
+          }
+        ],
+        "IVECO": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_iveco"
+          }
+        ],
+        "JDM SIMPA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_jdm_simpa"
+          }
+        ],
+        "JEEP": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_jeep"
+          }
+        ],
+        "KIA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_kia"
+          }
+        ],
+        "LADA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_lada"
+          }
+        ],
+        "LAND-ROVER": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_land-rover"
+          }
+        ],
+        "LEVC": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_levc"
+          }
+        ],
+        "MAHINDRA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_mahindra"
+          }
+        ],
+        "MAN": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_man"
+          }
+        ],
+        "MAXUS": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_maxus"
+          }
+        ],
+        "MAZDA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_mazda"
+          }
+        ],
+        "MEGA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_mega"
+          }
+        ],
+        "MERCEDES-BENZ": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_mercedes-benz"
+          }
+        ],
+        "MINI": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_mini"
+          }
+        ],
+        "MITSUBISHI": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_mitsubishi"
+          }
+        ],
+        "NISSAN": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_nissan"
+          }
+        ],
+        "OPEL": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_opel"
+          }
+        ],
+        "PEUGEOT": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_peugeot"
+          }
+        ],
+        "PIAGGIO": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_piaggio"
+          }
+        ],
+        "RENAULT": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_renault"
+          }
+        ],
+        "RENAULT-TRUCKS": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_renault-trucks"
+          }
+        ],
+        "ROVER": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_rover"
+          }
+        ],
+        "SANTANA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_santana"
+          }
+        ],
+        "SEAT": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_seat"
+          }
+        ],
+        "SKODA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_skoda"
+          }
+        ],
+        "SMART": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_smart"
+          }
+        ],
+        "SSANGYONG": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_ssangyong"
+          }
+        ],
+        "SUZUKI": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_suzuki"
+          }
+        ],
+        "TALBOT": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_talbot"
+          }
+        ],
+        "TOYOTA": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_toyota"
+          }
+        ],
+        "VOLKSWAGEN": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_volkswagen"
+          }
+        ],
+        "VOLVO": [
+          {
+            "type": "feature",
+            "name": "u_utility_model_volvo"
+          }
+        ]
+      },
+      "u_moto_brandFields": {
+        "2TWENTY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_2twenty"
+          }
+        ],
+        "ACCESS MOTOR": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_access_motor"
+          }
+        ],
+        "ACMA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_acma"
+          }
+        ],
+        "ADIVA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_adiva"
+          }
+        ],
+        "ADLY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_adly"
+          }
+        ],
+        "AEON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_aeon"
+          }
+        ],
+        "AJP": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ajp"
+          }
+        ],
+        "APRILIA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_aprilia"
+          }
+        ],
+        "ARCTIC CAT": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_arctic_cat"
+          }
+        ],
+        "ASKOLL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_askoll"
+          }
+        ],
+        "AUTRE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_autre"
+          }
+        ],
+        "AVINTON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_avinton"
+          }
+        ],
+        "AXR": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_axr"
+          }
+        ],
+        "AXROADS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_axroads"
+          }
+        ],
+        "BAROSSA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_barossa"
+          }
+        ],
+        "BENELLI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_benelli"
+          }
+        ],
+        "BETA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_beta"
+          }
+        ],
+        "BHR": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_bhr"
+          }
+        ],
+        "BIMOTA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_bimota"
+          }
+        ],
+        "BLANEY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_blaney"
+          }
+        ],
+        "BMW": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_bmw"
+          }
+        ],
+        "BRIXTON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_brixton"
+          }
+        ],
+        "BSA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_bsa"
+          }
+        ],
+        "BUELL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_buell"
+          }
+        ],
+        "BULLIT": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_bullit"
+          }
+        ],
+        "BULTACO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_bultaco"
+          }
+        ],
+        "CAGIVA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_cagiva"
+          }
+        ],
+        "CAN-AM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_can-am"
+          }
+        ],
+        "CARVOS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_carvos"
+          }
+        ],
+        "CCM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ccm"
+          }
+        ],
+        "CECTEK": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_cectek"
+          }
+        ],
+        "CF MOTO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_cf_moto"
+          }
+        ],
+        "CINECO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_cineco"
+          }
+        ],
+        "CITROEN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_citroen"
+          }
+        ],
+        "CLIPIC": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_clipic"
+          }
+        ],
+        "CPI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_cpi"
+          }
+        ],
+        "CYCLONE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_cyclone"
+          }
+        ],
+        "DAELIM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_daelim"
+          }
+        ],
+        "DERBI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_derbi"
+          }
+        ],
+        "DINLI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_dinli"
+          }
+        ],
+        "DOOHAN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_doohan"
+          }
+        ],
+        "DUCATI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ducati"
+          }
+        ],
+        "E-SOLEX": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_e-solex"
+          }
+        ],
+        "E-TON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_e-ton"
+          }
+        ],
+        "EC CITY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ec_city"
+          }
+        ],
+        "ELECTRIC MOTION": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_electric_motion"
+          }
+        ],
+        "ENERGICA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_energica"
+          }
+        ],
+        "EVO-SET": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_evo-set"
+          }
+        ],
+        "EVOKE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_evoke"
+          }
+        ],
+        "EXPLORER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_explorer"
+          }
+        ],
+        "FANTIC": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_fantic"
+          }
+        ],
+        "FB MONDIAL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_fb_mondial"
+          }
+        ],
+        "FUN TECH": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_fun_tech"
+          }
+        ],
+        "FYM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_fym"
+          }
+        ],
+        "GAS GAS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_gas_gas"
+          }
+        ],
+        "GENERIC": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_generic"
+          }
+        ],
+        "GILERA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_gilera"
+          }
+        ],
+        "GOES": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_goes"
+          }
+        ],
+        "GOVECS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_govecs"
+          }
+        ],
+        "GOWINN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_gowinn"
+          }
+        ],
+        "HANWAY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hanway"
+          }
+        ],
+        "HARLEY-DAVIDSON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_harley-davidson"
+          }
+        ],
+        "HEROWAY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_heroway"
+          }
+        ],
+        "HM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hm"
+          }
+        ],
+        "HM MOTO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hm_moto"
+          }
+        ],
+        "HM-HONDA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hm-honda"
+          }
+        ],
+        "HONDA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_honda"
+          }
+        ],
+        "HRD": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hrd"
+          }
+        ],
+        "HUSABERG": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_husaberg"
+          }
+        ],
+        "HUSQVARNA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_husqvarna"
+          }
+        ],
+        "HYOSUNG": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hyosung"
+          }
+        ],
+        "HYTRACK": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_hytrack"
+          }
+        ],
+        "IMF": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_imf"
+          }
+        ],
+        "INDIAN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_indian"
+          }
+        ],
+        "ITALJET": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_italjet"
+          }
+        ],
+        "ITALVEL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_italvel"
+          }
+        ],
+        "JAWA-CZ": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jawa-cz"
+          }
+        ],
+        "JIALING": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jialing"
+          }
+        ],
+        "JIANSHE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jianshe"
+          }
+        ],
+        "JINCHENG": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jincheng"
+          }
+        ],
+        "JINLUN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jinlun"
+          }
+        ],
+        "JM MOTORS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jm_motors"
+          }
+        ],
+        "JOHNNY PAG": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_johnny_pag"
+          }
+        ],
+        "JORDAN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_jordan"
+          }
+        ],
+        "KAWASAKI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kawasaki"
+          }
+        ],
+        "KAZUMA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kazuma"
+          }
+        ],
+        "KEEWAY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_keeway"
+          }
+        ],
+        "KINDER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kinder"
+          }
+        ],
+        "KINROAD": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kinroad"
+          }
+        ],
+        "KL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kl"
+          }
+        ],
+        "KOEHLER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_koehler"
+          }
+        ],
+        "KREIDLER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kreidler"
+          }
+        ],
+        "KSR MOTO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ksr_moto"
+          }
+        ],
+        "KTM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ktm"
+          }
+        ],
+        "KVN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kvn"
+          }
+        ],
+        "KYMCO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_kymco"
+          }
+        ],
+        "LAMBRETTA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_lambretta"
+          }
+        ],
+        "LAVERDA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_laverda"
+          }
+        ],
+        "LEM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_lem"
+          }
+        ],
+        "LEXMOTO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_lexmoto"
+          }
+        ],
+        "LIFAN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_lifan"
+          }
+        ],
+        "LIGIER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ligier"
+          }
+        ],
+        "LINHAI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_linhai"
+          }
+        ],
+        "LML": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_lml"
+          }
+        ],
+        "LONCIN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_loncin"
+          }
+        ],
+        "MAGPOWER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_magpower"
+          }
+        ],
+        "MALAGUTI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_malaguti"
+          }
+        ],
+        "MASAI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_masai"
+          }
+        ],
+        "MASH": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_mash"
+          }
+        ],
+        "MBK": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_mbk"
+          }
+        ],
+        "METRAKIT": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_metrakit"
+          }
+        ],
+        "MINICO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_minico"
+          }
+        ],
+        "MISTRAL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_mistral"
+          }
+        ],
+        "MONNIER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_monnier"
+          }
+        ],
+        "MONTESA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_montesa"
+          }
+        ],
+        "MOTO MORINI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_moto_morini"
+          }
+        ],
+        "MOTO-GUZZI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_moto-guzzi"
+          }
+        ],
+        "MOTOBECANE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_motobecane"
+          }
+        ],
+        "MSA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_msa"
+          }
+        ],
+        "MUTT": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_mutt"
+          }
+        ],
+        "MUZ": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_muz"
+          }
+        ],
+        "MV-AGUSTA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_mv-agusta"
+          }
+        ],
+        "MZ": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_mz"
+          }
+        ],
+        "NECO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_neco"
+          }
+        ],
+        "NFM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_nfm"
+          }
+        ],
+        "NIU": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_niu"
+          }
+        ],
+        "NORTON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_norton"
+          }
+        ],
+        "ORCAL": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_orcal"
+          }
+        ],
+        "OSSA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ossa"
+          }
+        ],
+        "OXO BIKE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_oxo_bike"
+          }
+        ],
+        "PEUGEOT": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_peugeot"
+          }
+        ],
+        "PGO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_pgo"
+          }
+        ],
+        "PIAGGIO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_piaggio"
+          }
+        ],
+        "PINK MOBILITY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_pink_mobility"
+          }
+        ],
+        "POLARIS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_polaris"
+          }
+        ],
+        "QINGQI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_qingqi"
+          }
+        ],
+        "QJ MOTOR": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_qj_motor"
+          }
+        ],
+        "QUADRO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_quadro"
+          }
+        ],
+        "REDE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_rede"
+          }
+        ],
+        "REGAL RAPTOR": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_regal_raptor"
+          }
+        ],
+        "RENAULT": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_renault"
+          }
+        ],
+        "REVATTO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_revatto"
+          }
+        ],
+        "RIDER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_rider"
+          }
+        ],
+        "RIEJU": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_rieju"
+          }
+        ],
+        "RIVAL MOTORS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_rival_motors"
+          }
+        ],
+        "RJ": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_rj"
+          }
+        ],
+        "ROXON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_roxon"
+          }
+        ],
+        "ROYAL ENFIELD": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_royal_enfield"
+          }
+        ],
+        "SACHS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_sachs"
+          }
+        ],
+        "SCORPA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_scorpa"
+          }
+        ],
+        "SEA DOO BOMBARDIER": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_sea_doo_bombardier"
+          }
+        ],
+        "SEGWAY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_segway"
+          }
+        ],
+        "SHERCO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_sherco"
+          }
+        ],
+        "SILENCE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_silence"
+          }
+        ],
+        "SIMSON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_simson"
+          }
+        ],
+        "SKYTEAM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_skyteam"
+          }
+        ],
+        "SOLEX": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_solex"
+          }
+        ],
+        "SUPER SOCO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_super_soco"
+          }
+        ],
+        "SURRON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_surron"
+          }
+        ],
+        "SUZUKI": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_suzuki"
+          }
+        ],
+        "SWM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_swm"
+          }
+        ],
+        "SYM": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_sym"
+          }
+        ],
+        "TALARIA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_talaria"
+          }
+        ],
+        "TENDANCE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_tendance"
+          }
+        ],
+        "TGB": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_tgb"
+          }
+        ],
+        "TNT MOTOR": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_tnt_motor"
+          }
+        ],
+        "TRITON": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_triton"
+          }
+        ],
+        "TRIUMPH": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_triumph"
+          }
+        ],
+        "VASTRO": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_vastro"
+          }
+        ],
+        "VESPA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_vespa"
+          }
+        ],
+        "VICTORY": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_victory"
+          }
+        ],
+        "VOGE": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_voge"
+          }
+        ],
+        "VOXAN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_voxan"
+          }
+        ],
+        "WHATTZ": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_whattz"
+          }
+        ],
+        "YADEA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_yadea"
+          }
+        ],
+        "YAMAHA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_yamaha"
+          }
+        ],
+        "YAZUKA": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_yazuka"
+          }
+        ],
+        "YCF": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_ycf"
+          }
+        ],
+        "YIYING": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_yiying"
+          }
+        ],
+        "YOUBEE MOTORS": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_youbee_motors"
+          }
+        ],
+        "ZERO MOTORCYCLES": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_zero_motorcycles"
+          }
+        ],
+        "ZHONGYU": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_zhongyu"
+          }
+        ],
+        "ZONGCHEN": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_zongchen"
+          }
+        ],
+        "ZONTES": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_zontes"
+          }
+        ],
+        "ZÜNDAPP": [
+          {
+            "type": "feature",
+            "name": "u_moto_model_zündapp"
+          }
+        ]
+      },
+      "phone_brandFields": {
+        "alcatel": [
+          {
+            "type": "feature",
+            "name": "phone_model_alcatel"
+          }
+        ],
+        "apple": [
+          {
+            "type": "feature",
+            "name": "phone_model_apple"
+          }
+        ],
+        "archos": [
+          {
+            "type": "feature",
+            "name": "phone_model_archos"
+          }
+        ],
+        "asus": [
+          {
+            "type": "feature",
+            "name": "phone_model_asus"
+          }
+        ],
+        "autre": [
+          {
+            "type": "feature",
+            "name": "phone_model_autre"
+          }
+        ],
+        "blackberry": [
+          {
+            "type": "feature",
+            "name": "phone_model_blackberry"
+          }
+        ],
+        "fairphone": [
+          {
+            "type": "feature",
+            "name": "phone_model_fairphone"
+          }
+        ],
+        "google": [
+          {
+            "type": "feature",
+            "name": "phone_model_google"
+          }
+        ],
+        "honor": [
+          {
+            "type": "feature",
+            "name": "phone_model_honor"
+          }
+        ],
+        "htc": [
+          {
+            "type": "feature",
+            "name": "phone_model_htc"
+          }
+        ],
+        "huawei": [
+          {
+            "type": "feature",
+            "name": "phone_model_huawei"
+          }
+        ],
+        "lenovo": [
+          {
+            "type": "feature",
+            "name": "phone_model_lenovo"
+          }
+        ],
+        "lg": [
+          {
+            "type": "feature",
+            "name": "phone_model_lg"
+          }
+        ],
+        "microsoft": [
+          {
+            "type": "feature",
+            "name": "phone_model_microsoft"
+          }
+        ],
+        "mobiwire": [
+          {
+            "type": "feature",
+            "name": "phone_model_mobiwire"
+          }
+        ],
+        "motorola": [
+          {
+            "type": "feature",
+            "name": "phone_model_motorola"
+          }
+        ],
+        "nokia": [
+          {
+            "type": "feature",
+            "name": "phone_model_nokia"
+          }
+        ],
+        "oneplus": [
+          {
+            "type": "feature",
+            "name": "phone_model_oneplus"
+          }
+        ],
+        "oppo": [
+          {
+            "type": "feature",
+            "name": "phone_model_oppo"
+          }
+        ],
+        "samsung": [
+          {
+            "type": "feature",
+            "name": "phone_model_samsung"
+          }
+        ],
+        "sony": [
+          {
+            "type": "feature",
+            "name": "phone_model_sony"
+          }
+        ],
+        "wiko": [
+          {
+            "type": "feature",
+            "name": "phone_model_wiko"
+          }
+        ],
+        "xiaomi": [
+          {
+            "type": "feature",
+            "name": "phone_model_xiaomi"
+          }
+        ],
+        "zte": [
+          {
+            "type": "feature",
+            "name": "phone_model_zte"
+          }
+        ]
+      },
+      "console_brandFields": {
+        "amiga": [
+          {
+            "type": "feature",
+            "name": "console_model_amiga"
+          }
+        ],
+        "amstrad": [
+          {
+            "type": "feature",
+            "name": "console_model_amstrad"
+          }
+        ],
+        "atari": [
+          {
+            "type": "feature",
+            "name": "console_model_atari"
+          }
+        ],
+        "autre": [
+          {
+            "type": "feature",
+            "name": "console_model_autre"
+          }
+        ],
+        "microsoft": [
+          {
+            "type": "feature",
+            "name": "console_model_microsoft"
+          }
+        ],
+        "neogeoaes": [
+          {
+            "type": "feature",
+            "name": "console_model_neogeoaes"
+          }
+        ],
+        "nintendo": [
+          {
+            "type": "feature",
+            "name": "console_model_nintendo"
+          }
+        ],
+        "retrogaming": [
+          {
+            "type": "feature",
+            "name": "console_model_retrogaming"
+          }
+        ],
+        "sega": [
+          {
+            "type": "feature",
+            "name": "console_model_sega"
+          }
+        ],
+        "sony": [
+          {
+            "type": "feature",
+            "name": "console_model_sony"
+          }
+        ]
+      },
+      "clothing_typeFields": {
+        "1": [
+          {
+            "type": "feature",
+            "name": "clothing_st_2"
+          }
+        ],
+        "2": [
+          {
+            "type": "feature",
+            "name": "clothing_st_2"
+          }
+        ],
+        "3": [
+          {
+            "type": "feature",
+            "name": "clothing_st_3"
+          }
+        ],
+        "4": [
+          {
+            "type": "feature",
+            "name": "clothing_st_4"
+          }
+        ]
+      },
+      "animal_typeFields": {
+        "1": [
+          {
+            "type": "feature",
+            "name": "animal_offer_nature_1"
+          }
+        ]
+      },
+      "categoryFields": {
+        "offer": {
+          "0": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            }
+          ],
+          "1": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "2": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "u_car_brand"
+            },
+            {
+              "type": "multi",
+              "name": "u_car_brandFields",
+              "conditionalFeatures": [
+                "u_car_brand"
+              ]
+            },
+            {
+              "type": "feature",
+              "name": "regdate"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_type"
+            },
+            {
+              "type": "feature",
+              "name": "fuel"
+            },
+            {
+              "type": "feature",
+              "name": "gearbox"
+            },
+            {
+              "type": "feature",
+              "name": "mileage"
+            },
+            {
+              "type": "feature",
+              "name": "critair"
+            },
+            {
+              "type": "feature",
+              "name": "horse_power_din"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_damage_a"
+            },
+            {
+              "type": "feature",
+              "name": "horsepower"
+            },
+            {
+              "type": "feature",
+              "name": "doors"
+            },
+            {
+              "type": "feature",
+              "name": "seats"
+            },
+            {
+              "type": "feature",
+              "name": "vehicule_color"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_vsp"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_is_eligible_p2p"
+            }
+          ],
+          "3": [
+            {
+              "type": "feature",
+              "name": "cubic_capacity"
+            },
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "regdate"
+            },
+            {
+              "type": "feature",
+              "name": "moto_type"
+            },
+            {
+              "type": "feature",
+              "name": "u_moto_brand"
+            },
+            {
+              "type": "multi",
+              "name": "u_moto_brandFields",
+              "conditionalFeatures": [
+                "u_moto_brand"
+              ]
+            },
+            {
+              "type": "feature",
+              "name": "mileage"
+            },
+            {
+              "type": "feature",
+              "name": "horse_power_din"
+            },
+            {
+              "type": "feature",
+              "name": "vehicule_color"
+            },
+            {
+              "type": "feature",
+              "name": "cycle_licence"
+            },
+            {
+              "type": "feature",
+              "name": "critair"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_is_eligible_p2p"
+            }
+          ],
+          "4": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "regdate"
+            },
+            {
+              "type": "feature",
+              "name": "mileage"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_caravan_type"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_is_eligible_p2p"
+            }
+          ],
+          "5": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "u_utility_brand"
+            },
+            {
+              "type": "multi",
+              "name": "u_utility_brandFields",
+              "conditionalFeatures": [
+                "u_utility_brand"
+              ]
+            },
+            {
+              "type": "feature",
+              "name": "regdate"
+            },
+            {
+              "type": "feature",
+              "name": "fuel"
+            },
+            {
+              "type": "feature",
+              "name": "mileage"
+            },
+            {
+              "type": "feature",
+              "name": "horse_power_din"
+            },
+            {
+              "type": "feature",
+              "name": "horsepower"
+            },
+            {
+              "type": "feature",
+              "name": "doors"
+            },
+            {
+              "type": "feature",
+              "name": "seats"
+            },
+            {
+              "type": "feature",
+              "name": "vehicule_color"
+            },
+            {
+              "type": "feature",
+              "name": "gearbox"
+            },
+            {
+              "type": "feature",
+              "name": "critair"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_is_eligible_p2p"
+            }
+          ],
+          "6": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "7": [
+            {
+              "type": "feature",
+              "name": "boat_type"
+            },
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_is_eligible_p2p"
+            }
+          ],
+          "8": [
+            {
+              "type": "feature",
+              "name": "price_real_estate"
+            }
+          ],
+          "9": [
+            {
+              "type": "feature",
+              "name": "real_estate_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_real_estate"
+            },
+            {
+              "type": "feature",
+              "name": "square"
+            },
+            {
+              "type": "feature",
+              "name": "immo_sell_type"
+            },
+            {
+              "type": "feature",
+              "name": "land_plot_surface"
+            },
+            {
+              "type": "feature",
+              "name": "rooms"
+            },
+            {
+              "type": "feature",
+              "name": "outside_access"
+            },
+            {
+              "type": "feature",
+              "name": "floor_property"
+            },
+            {
+              "type": "feature",
+              "name": "specificities_sale"
+            },
+            {
+              "type": "feature",
+              "name": "energy_rate"
+            }
+          ],
+          "10": [
+            {
+              "type": "feature",
+              "name": "real_estate_type"
+            },
+            {
+              "type": "feature",
+              "name": "rental"
+            },
+            {
+              "type": "feature",
+              "name": "rooms"
+            },
+            {
+              "type": "feature",
+              "name": "square"
+            },
+            {
+              "type": "feature",
+              "name": "land_plot_surface"
+            },
+            {
+              "type": "feature",
+              "name": "furnished"
+            },
+            {
+              "type": "feature",
+              "name": "outside_access"
+            },
+            {
+              "type": "feature",
+              "name": "floor_property"
+            },
+            {
+              "type": "feature",
+              "name": "specificities_rent"
+            },
+            {
+              "type": "feature",
+              "name": "energy_rate"
+            }
+          ],
+          "11": [
+            {
+              "type": "feature",
+              "name": "rental"
+            },
+            {
+              "type": "feature",
+              "name": "square"
+            },
+            {
+              "type": "feature",
+              "name": "outside_access"
+            },
+            {
+              "type": "feature",
+              "name": "floor_property"
+            },
+            {
+              "type": "feature",
+              "name": "specificities_flatsharing"
+            },
+            {
+              "type": "feature",
+              "name": "energy_rate"
+            }
+          ],
+          "12": [
+            {
+              "type": "feature",
+              "name": "date"
+            },
+            {
+              "type": "feature",
+              "name": "capacity"
+            },
+            {
+              "type": "feature",
+              "name": "bookable"
+            },
+            {
+              "type": "feature",
+              "name": "locandgite_estate_type"
+            },
+            {
+              "type": "feature",
+              "name": "accommodation_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_per_night"
+            },
+            {
+              "type": "feature",
+              "name": "bedrooms"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_outside_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_service"
+            }
+          ],
+          "13": [
+            {
+              "type": "feature",
+              "name": "lease_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_real_estate"
+            },
+            {
+              "type": "feature",
+              "name": "square_short"
+            },
+            {
+              "type": "feature",
+              "name": "outside_access"
+            },
+            {
+              "type": "feature",
+              "name": "floor_property"
+            },
+            {
+              "type": "feature",
+              "name": "specificities_shops"
+            },
+            {
+              "type": "feature",
+              "name": "energy_rate_offices_and_shops"
+            }
+          ],
+          "14": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            }
+          ],
+          "15": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "16": [
+            {
+              "type": "feature",
+              "name": "image_sound_product"
+            },
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "17": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "phone_brand"
+            },
+            {
+              "type": "multi",
+              "name": "phone_brandFields",
+              "conditionalFeatures": [
+                "phone_brand"
+              ]
+            },
+            {
+              "type": "feature",
+              "name": "phone_memory"
+            },
+            {
+              "type": "feature",
+              "name": "phone_color"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "18": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            }
+          ],
+          "19": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_type"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_material"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_color"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "20": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "home_appliance_type"
+            },
+            {
+              "type": "feature",
+              "name": "home_appliance_product"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "home_appliance_brand"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "21": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "diy_product"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "22": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_type"
+            },
+            {
+              "type": "mul  ti",
+              "name": "clothing_typeFields",
+              "conditionalFeatures": [
+                "clothing_type"
+              ]
+            },
+            {
+              "type": "feature",
+              "name": "clothing_tag"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_brand_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_color_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_condition_a"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "23": [
+            {
+              "type": "feature",
+              "name": "baby_equipment_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "baby_equipment_brand"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_color_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_condition_reconditionne"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "24": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            }
+          ],
+          "25": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "26": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "27": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "leisure_book_genre"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "28": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "animal_type"
+            },
+            {
+              "type": "multi",
+              "name": "animal_typeFields",
+              "conditionalFeatures": [
+                "animal_type"
+              ]
+            }
+          ],
+          "29": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "sports_hobbies_activity"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "30": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "31": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "32": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "33": [
+            {
+              "type": "feature",
+              "name": "jobcontract"
+            },
+            {
+              "type": "feature",
+              "name": "jobfield"
+            },
+            {
+              "type": "feature",
+              "name": "jobduty"
+            },
+            {
+              "type": "feature",
+              "name": "jobexp"
+            },
+            {
+              "type": "feature",
+              "name": "jobstudy"
+            },
+            {
+              "type": "feature",
+              "name": "jobtime"
+            }
+          ],
+          "35": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "ticketing_type"
+            }
+          ],
+          "36": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "private_lessons_type"
+            }
+          ],
+          "37": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            }
+          ],
+          "38": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "39": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "decoration_type"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_material"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_color"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "40": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "leisure_collection_product"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "41": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "toy_age"
+            },
+            {
+              "type": "feature",
+              "name": "toy_type"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "games_and_toys_brand"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "42": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "watches_jewels_type"
+            },
+            {
+              "type": "feature",
+              "name": "accessories_univers"
+            },
+            {
+              "type": "feature",
+              "name": "watches_jewels_brand"
+            },
+            {
+              "type": "feature",
+              "name": "watches_jewels_material"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "43": [
+            {
+              "type": "feature",
+              "name": "video_game_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "console_brand"
+            },
+            {
+              "type": "multi",
+              "name": "console_brandFields",
+              "conditionalFeatures": [
+                "console_brand"
+              ]
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "44": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_moto_equipment_type"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "45": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "table_art_product"
+            },
+            {
+              "type": "feature",
+              "name": "table_art_material"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_color"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "46": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "linens_type"
+            },
+            {
+              "type": "feature",
+              "name": "linens_material"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_color"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "47": [
+            {
+              "type": "feature",
+              "name": "accessories_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "accessories_univers"
+            },
+            {
+              "type": "feature",
+              "name": "accessories_brand"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_color_a"
+            },
+            {
+              "type": "feature",
+              "name": "accessories_material"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_condition_a"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "48": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "default_item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "50": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "51": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "vehicle_boat_equipment_type"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "52": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "gardening_product"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "53": [
+            {
+              "type": "feature",
+              "name": "shoe_type"
+            },
+            {
+              "type": "feature",
+              "name": "shoe_size"
+            },
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "shoe_category_a"
+            },
+            {
+              "type": "feature",
+              "name": "shoe_brand_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_color_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_condition_a"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "54": [
+            {
+              "type": "feature",
+              "name": "baby_clothing_category_a"
+            },
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "baby_age"
+            },
+            {
+              "type": "feature",
+              "name": "baby_clothing_brand_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_color_a"
+            },
+            {
+              "type": "feature",
+              "name": "clothing_condition_a"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "55": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "bicycle_type"
+            },
+            {
+              "type": "feature",
+              "name": "bicycle_size"
+            },
+            {
+              "type": "feature",
+              "name": "bicycle_wheel_size"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "56": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            }
+          ],
+          "57": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "matpro_agriculture_equipment_type"
+            },
+            {
+              "type": "feature",
+              "name": "matpro_agriculture_equipment_brand"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_usage_hour"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_horse_power"
+            },
+            {
+              "type": "feature",
+              "name": "regdate_matpro"
+            }
+          ],
+          "58": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "fuel"
+            },
+            {
+              "type": "feature",
+              "name": "mileage"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_horse_power"
+            },
+            {
+              "type": "feature",
+              "name": "regdate_matpro"
+            }
+          ],
+          "59": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "matpro_btp_equipment_type"
+            },
+            {
+              "type": "feature",
+              "name": "matpro_btp_equipment_brand"
+            },
+            {
+              "type": "feature",
+              "name": "regdate_matpro"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_weight"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_usage_hour"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_horse_power"
+            }
+          ],
+          "60": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "61": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "62": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "63": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "64": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "65": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "66": [
+            {
+              "type": "feature",
+              "name": "date"
+            },
+            {
+              "type": "feature",
+              "name": "bookable"
+            },
+            {
+              "type": "feature",
+              "name": "capacity"
+            },
+            {
+              "type": "feature",
+              "name": "price_per_night"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_outside_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_service"
+            }
+          ],
+          "67": [
+            {
+              "type": "feature",
+              "name": "date"
+            },
+            {
+              "type": "feature",
+              "name": "bookable"
+            },
+            {
+              "type": "feature",
+              "name": "capacity"
+            },
+            {
+              "type": "feature",
+              "name": "price_per_night"
+            },
+            {
+              "type": "feature",
+              "name": "bedrooms"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_outside_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_service"
+            }
+          ],
+          "68": [
+            {
+              "type": "feature",
+              "name": "date"
+            },
+            {
+              "type": "feature",
+              "name": "bookable"
+            },
+            {
+              "type": "feature",
+              "name": "capacity"
+            },
+            {
+              "type": "feature",
+              "name": "camping_estate_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_per_night"
+            },
+            {
+              "type": "feature",
+              "name": "bedrooms"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_outside_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_service"
+            }
+          ],
+          "69": [
+            {
+              "type": "feature",
+              "name": "price_per_night"
+            },
+            {
+              "type": "feature",
+              "name": "hotel_grading"
+            },
+            {
+              "type": "feature",
+              "name": "hotel_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "hotel_room_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "hotel_other_prestation"
+            }
+          ],
+          "70": [
+            {
+              "type": "feature",
+              "name": "date"
+            },
+            {
+              "type": "feature",
+              "name": "bookable"
+            },
+            {
+              "type": "feature",
+              "name": "capacity"
+            },
+            {
+              "type": "feature",
+              "name": "hebergements_insolites_estate_type"
+            },
+            {
+              "type": "feature",
+              "name": "price_per_night"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_outside_equipment"
+            },
+            {
+              "type": "feature",
+              "name": "ldv_service"
+            }
+          ],
+          "72": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            }
+          ],
+          "74": [
+            {
+              "type": "feature",
+              "name": "cpf"
+            },
+            {
+              "type": "feature",
+              "name": "training_field"
+            },
+            {
+              "type": "feature",
+              "name": "training_type"
+            }
+          ],
+          "76": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "animal_accessories_animal_kind"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "79": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            }
+          ],
+          "80": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "children_room_furniture_product"
+            },
+            {
+              "type": "feature",
+              "name": "condition_pieces_reconditionne"
+            },
+            {
+              "type": "feature",
+              "name": "furniture_color"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "81": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "phone_color"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "82": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "83": [
+            {
+              "type": "feature",
+              "name": "price_with_donation_top_panel"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "computer_accessories_product"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "84": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition"
+            },
+            {
+              "type": "feature",
+              "name": "console_brandFields"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "85": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "condition_pieces"
+            },
+            {
+              "type": "feature",
+              "name": "bicycle_equipment_size"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "86": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "88": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "89": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "item_condition_without_recondition"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "92": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "93": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "95": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "96": [
+            {
+              "type": "feature",
+              "name": "price_with_donation"
+            },
+            {
+              "type": "feature",
+              "name": "transaction_status_hide"
+            }
+          ],
+          "97": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "home_garden_services_type"
+            }
+          ],
+          "98": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "99": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "100": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "101": [
+            {
+              "type": "feature",
+              "name": "price"
+            }
+          ],
+          "102": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "animals_services_type"
+            }
+          ],
+          "103": [
+            {
+              "type": "feature",
+              "name": "neighbourhood_help_swap_and_loan"
+            }
+          ],
+          "105": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "regdate_matpro"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_horse_power"
+            },
+            {
+              "type": "feature",
+              "name": "matpro_agriculture_equipment_brand"
+            },
+            {
+              "type": "feature",
+              "name": "professional_equipment_usage_hour"
+            }
+          ],
+          "106": [
+            {
+              "type": "feature",
+              "name": "price"
+            },
+            {
+              "type": "feature",
+              "name": "matpro_transport_handling_equipment_type"
+            }
+          ]
+        },
+        "demand": { }
+      }
+    }
+  }
+  
+  
